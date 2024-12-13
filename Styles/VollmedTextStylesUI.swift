@@ -45,6 +45,9 @@ struct VollmedTextStylesUI: View {
 
 struct TitleStyleLRegular: ViewModifier {
     
+    /// Modifica o conteúdo do Text (View)
+    /// - Parameter content: O conteúdo que será modificado (nesse caso, o texto)
+    /// - Returns: Retorna o 'Text' modificado, com o estilo L Regular
     func body(content: Content) -> some View {
         content
             .font(.system(size: 22))
@@ -55,6 +58,9 @@ struct TitleStyleLRegular: ViewModifier {
 
 struct TitleStyleLBold: ViewModifier {
     
+    /// Modifica o conteúdo do Text (View)
+    /// - Parameter content: O conteúdo que será modificado (nesse caso, o texto)
+    /// - Returns: Retorna o 'Text' modificado, com o estilo L Bold
     func body(content: Content) -> some View {
         content
             .font(.system(size: 22))
@@ -65,6 +71,9 @@ struct TitleStyleLBold: ViewModifier {
 
 struct TitleStyleMdRegular: ViewModifier {
     
+    /// Modifica o conteúdo do Text (View)
+    /// - Parameter content: O conteúdo que será modificado (nesse caso, o texto)
+    /// - Returns: Retorna o 'Text' modificado, com o estilo Md Regular
     func body(content: Content) -> some View {
         content
             .font(.system(size: 20))
@@ -75,6 +84,9 @@ struct TitleStyleMdRegular: ViewModifier {
 
 struct TitleStyleMdBold: ViewModifier {
     
+    /// Modifica o conteúdo do Text (View)
+    /// - Parameter content: O conteúdo que será modificado (nesse caso, o texto)
+    /// - Returns: Retorna o 'Text' modificado, com o estilo Md Bold
     func body(content: Content) -> some View {
         content
             .font(.system(size: 20))
@@ -85,6 +97,9 @@ struct TitleStyleMdBold: ViewModifier {
 
 struct TitleStyleSRegular: ViewModifier {
     
+    /// Modifica o conteúdo do Text (View)
+    /// - Parameter content: O conteúdo que será modificado (nesse caso, o texto)
+    /// - Returns: Retorna o 'Text' modificado, com o estilo S Regular
     func body(content: Content) -> some View {
         content
             .font(.system(size: 18))
@@ -95,6 +110,9 @@ struct TitleStyleSRegular: ViewModifier {
 
 struct TitleStyleSBold: ViewModifier {
     
+    /// Modifica o conteúdo do Text (View)
+    /// - Parameter content: O conteúdo que será modificado (nesse caso, o texto)
+    /// - Returns: Retorna o 'Text' modificado, com o estilo S Bold
     func body(content: Content) -> some View {
         content
             .font(.system(size: 18))
@@ -105,6 +123,9 @@ struct TitleStyleSBold: ViewModifier {
 
 struct BodyRegular: ViewModifier {
     
+    /// Modifica o conteúdo do Text (View)
+    /// - Parameter content: O conteúdo que será modificado (nesse caso, o texto)
+    /// - Returns: Retorna o 'Text' modificado, com o estilo Body Regular
     func body(content: Content) -> some View {
         content
             .font(.system(size: 17))
@@ -115,6 +136,9 @@ struct BodyRegular: ViewModifier {
 
 struct BodyBold: ViewModifier {
     
+    /// Modifica o conteúdo do Text (View)
+    /// - Parameter content: O conteúdo que será modificado (nesse caso, o texto)
+    /// - Returns: Retorna o 'Text' modificado, com o estilo Body Bold
     func body(content: Content) -> some View {
         content
             .font(.system(size: 17))
@@ -125,6 +149,9 @@ struct BodyBold: ViewModifier {
 
 struct Caption: ViewModifier {
     
+    /// Modifica o conteúdo do Text (View)
+    /// - Parameter content: O conteúdo que será modificado (nesse caso, o texto)
+    /// - Returns: Retorna o 'Text' modificado, com o estilo Caption
     func body(content: Content) -> some View {
         content
             .font(.system(size: 14))
