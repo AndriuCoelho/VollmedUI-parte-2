@@ -22,7 +22,19 @@ struct VollmedTolltipView: View {
     }
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 12) {
+            Text(title)
+                .padding(.bottom, 5)
+            Text(description)
+        }
+        .padding(15)
+        
+        .background {
+            Rectangle()
+                .fill(Color(red: 230.0/255.0,
+                            green: 243.0/255.0,
+                            blue: 255.0/255.0))
+        }
     }
 }
 
