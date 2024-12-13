@@ -1,0 +1,23 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Example/build/Release-iphoneos/Pods_VollmedUI_Example.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Example/build/Pods.build/Release-iphoneos/Pods-VollmedUI_Example.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    'type': 'directory',
+    'name': "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Example/build/Release-iphoneos/Pods_VollmedUI_Example.framework/Headers"
+    'contents': [{
+      'type': 'file',
+      'name': "Pods_VollmedUI_Example-Swift.h",
+      'external-contents': "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Example/build/Pods.build/Release-iphoneos/Pods-VollmedUI_Example.build/unextended-interface-header.h",
+    }]
+    }]
+}

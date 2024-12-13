@@ -1,0 +1,201 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Components/VollmedTolltipView.swift",
+      "line": 10,
+      "symbol": "VollmedTolltipView",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Components/VollmedTolltipView.swift",
+      "line": 14,
+      "symbol": "VollmedTolltipView.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Components/VollmedTolltipView.swift",
+      "line": 15,
+      "symbol": "VollmedTolltipView.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Components/VollmedTolltipView.swift",
+      "line": 19,
+      "symbol": "VollmedTolltipView.init(title:description:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedButtonStylesUI.swift",
+      "line": 10,
+      "symbol": "VollmedButtonStylesUI",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedButtonStylesUI.swift",
+      "line": 30,
+      "symbol": "ConfirmPrimaryButtonStyle",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedButtonStylesUI.swift",
+      "line": 42,
+      "symbol": "ConfirmPrimaryButtonStyle.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedButtonStylesUI.swift",
+      "line": 45,
+      "symbol": "CancelButtonStyle",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedTextStylesUI.swift",
+      "line": 10,
+      "symbol": "VollmedTextStylesUI",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedTextStylesUI.swift",
+      "line": 12,
+      "symbol": "VollmedTextStylesUI.boldColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedTextStylesUI.swift",
+      "line": 46,
+      "symbol": "TitleStyleLRegular",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedTextStylesUI.swift",
+      "line": 59,
+      "symbol": "TitleStyleLBold",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedTextStylesUI.swift",
+      "line": 72,
+      "symbol": "TitleStyleMdRegular",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedTextStylesUI.swift",
+      "line": 85,
+      "symbol": "TitleStyleMdBold",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedTextStylesUI.swift",
+      "line": 98,
+      "symbol": "TitleStyleSRegular",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedTextStylesUI.swift",
+      "line": 111,
+      "symbol": "TitleStyleSBold",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedTextStylesUI.swift",
+      "line": 124,
+      "symbol": "BodyRegular",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedTextStylesUI.swift",
+      "line": 137,
+      "symbol": "BodyBold",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedTextStylesUI.swift",
+      "line": 150,
+      "symbol": "Caption",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedTextStylesUI.swift",
+      "line": 164,
+      "symbol": "View.titleLRegularStyle()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedTextStylesUI.swift",
+      "line": 168,
+      "symbol": "View.titleLBoldStyle()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedTextStylesUI.swift",
+      "line": 172,
+      "symbol": "View.titleMdRegularStyle()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedTextStylesUI.swift",
+      "line": 176,
+      "symbol": "View.titleMdBoldStyle()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedTextStylesUI.swift",
+      "line": 180,
+      "symbol": "View.titleSRegularStyle()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedTextStylesUI.swift",
+      "line": 184,
+      "symbol": "View.titleSBoldStyle()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedTextStylesUI.swift",
+      "line": 188,
+      "symbol": "View.bodyRegularStyle()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedTextStylesUI.swift",
+      "line": 192,
+      "symbol": "View.bodyBoldStyle()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedTextStylesUI.swift",
+      "line": 196,
+      "symbol": "View.captionStyle()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/pcmacestudio/Desktop/VollmedUI-parte-2"
+}

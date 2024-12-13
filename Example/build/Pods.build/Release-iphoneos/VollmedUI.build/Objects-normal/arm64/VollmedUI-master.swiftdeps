@@ -1,0 +1,8 @@
+version: "Apple Swift version 6.0.2 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)"
+options: "d6240d8ff337127c18ec179bde98429920bfc1bba7c84c08be3b9a050e3cf1f2"
+build_start_time: [1734119855, 134171000]
+build_end_time: [1734119857, 124431000]
+inputs:
+  "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Components/VollmedTolltipView.swift": [1734102588, 53726160]
+  "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedButtonStylesUI.swift": [1731323786, 0]
+  "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedTextStylesUI.swift": [1734117732, 694402231]

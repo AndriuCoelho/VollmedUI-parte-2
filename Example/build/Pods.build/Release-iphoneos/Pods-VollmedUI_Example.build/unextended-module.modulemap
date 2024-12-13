@@ -1,0 +1,10 @@
+framework module Pods_VollmedUI_Example {
+  umbrella header "Pods-VollmedUI_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Pods_VollmedUI_Example.__Swift {
+  exclude header "Pods_VollmedUI_Example-Swift.h"
+}

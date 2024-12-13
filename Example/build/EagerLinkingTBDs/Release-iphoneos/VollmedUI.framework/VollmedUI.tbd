@@ -1,0 +1,72 @@
+{
+  "main_library": {
+    "exported_symbols": [
+      {
+        "data": {
+          "global": [
+            "_$s9VollmedUI17CancelButtonStyleV05SwiftB00dE0AAMc",
+            "_$s9VollmedUI17CancelButtonStyleVMa",
+            "_VollmedUIVersionString",
+            "_$s7SwiftUI4ViewP07VollmedB0E18titleSRegularStyleQryF",
+            "_$s7SwiftUI4ViewP07VollmedB0E13bodyBoldStyleQryFQOMQ",
+            "_$s7SwiftUI4ViewP07VollmedB0E16titleMdBoldStyleQryF",
+            "_$s7SwiftUI4ViewP07VollmedB0E19titleMdRegularStyleQryFQOMQ",
+            "_$s7SwiftUI4ViewP07VollmedB0E19titleMdRegularStyleQryF",
+            "_$s7SwiftUI4ViewP07VollmedB0E12captionStyleQryFQOMQ",
+            "_$s9VollmedUI17CancelButtonStyleVN",
+            "_$s7SwiftUI4ViewP07VollmedB0E15titleSBoldStyleQryF",
+            "_$s9VollmedUI25ConfirmPrimaryButtonStyleVACycfC",
+            "_$s7SwiftUI4ViewP07VollmedB0E18titleLRegularStyleQryF",
+            "_$s9VollmedUI17CancelButtonStyleV8makeBody13configurationQr05SwiftB00dE13ConfigurationV_tF",
+            "_$s9VollmedUI25ConfirmPrimaryButtonStyleV05SwiftB00eF0AAMc",
+            "_$s7SwiftUI4ViewP07VollmedB0E18titleLRegularStyleQryFQOMQ",
+            "_$s7SwiftUI4ViewP07VollmedB0E16titleMdBoldStyleQryFQOMQ",
+            "_VollmedUIVersionNumber",
+            "_$s7SwiftUI4ViewP07VollmedB0E15titleLBoldStyleQryF",
+            "_$s7SwiftUI4ViewP07VollmedB0E15titleLBoldStyleQryFQOMQ",
+            "_$s9VollmedUI25ConfirmPrimaryButtonStyleV8makeBody13configurationQr05SwiftB00eF13ConfigurationV_tFQOMQ",
+            "_$s7SwiftUI4ViewP07VollmedB0E15titleSBoldStyleQryFQOMQ",
+            "_$s7SwiftUI4ViewP07VollmedB0E12captionStyleQryF",
+            "_$s9VollmedUI25ConfirmPrimaryButtonStyleV8makeBody13configurationQr05SwiftB00eF13ConfigurationV_tF",
+            "_$s9VollmedUI25ConfirmPrimaryButtonStyleVMn",
+            "_$s9VollmedUI25ConfirmPrimaryButtonStyleVN",
+            "_$s7SwiftUI4ViewP07VollmedB0E18titleSRegularStyleQryFQOMQ",
+            "_$s7SwiftUI4ViewP07VollmedB0E16bodyRegularStyleQryF",
+            "_$s9VollmedUI25ConfirmPrimaryButtonStyleVMa",
+            "_$s7SwiftUI4ViewP07VollmedB0E13bodyBoldStyleQryF",
+            "_$s9VollmedUI17CancelButtonStyleV8makeBody13configurationQr05SwiftB00dE13ConfigurationV_tFQOMQ",
+            "_$s7SwiftUI4ViewP07VollmedB0E16bodyRegularStyleQryFQOMQ",
+            "_$s9VollmedUI17CancelButtonStyleVMn"
+          ],
+          "objc_class": [
+            "PodsDummy_VollmedUI"
+          ]
+        }
+      }
+    ],
+    "flags": [
+      {
+        "attributes": [
+          "not_app_extension_safe"
+        ]
+      }
+    ],
+    "install_names": [
+      {
+        "name": "@rpath/VollmedUI.framework/VollmedUI"
+      }
+    ],
+    "swift_abi": [
+      {
+        "abi": 7
+      }
+    ],
+    "target_info": [
+      {
+        "min_deployment": "16",
+        "target": "arm64-ios"
+      }
+    ]
+  },
+  "tapi_tbd_version": 5
+}
