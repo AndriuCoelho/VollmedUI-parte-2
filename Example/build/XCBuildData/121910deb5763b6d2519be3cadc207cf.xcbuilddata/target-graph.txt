@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'Pods-VollmedUI_Example' in project 'Pods'
+➜ Explicit dependency on target 'VollmedUI' in project 'Pods'
+Target 'VollmedUI' in project 'Pods' (no dependencies)

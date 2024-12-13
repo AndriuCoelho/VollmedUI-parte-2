@@ -10,10 +10,14 @@
 		04269C11550682A5FCE1788116CC7468 /* VollmedUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D96B5A98DF26177D1C692AF2FA15D5 /* VollmedUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05E01F8B64203C5FAF2286C5019F0D3D /* VollmedUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2291A95EC5FEB2EC695AE53BBB8F5CF1 /* VollmedUI-dummy.m */; };
 		10317E6651091BD7DC52A149072D458E /* Pods-VollmedUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9493A79441E11DF480DFC0B1FB07688B /* Pods-VollmedUI_Example-dummy.m */; };
-		18706CEF2D0C6BB100402994 /* VollmedButtonStylesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18706CEC2D0C6BB100402994 /* VollmedButtonStylesUI.swift */; };
-		18706CF02D0C6BB100402994 /* VollmedTextStylesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18706CED2D0C6BB100402994 /* VollmedTextStylesUI.swift */; };
-		18706CF12D0C6BB100402994 /* VollmedButtonStylesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18706CEC2D0C6BB100402994 /* VollmedButtonStylesUI.swift */; };
-		18706CF22D0C6BB100402994 /* VollmedTextStylesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18706CED2D0C6BB100402994 /* VollmedTextStylesUI.swift */; };
+		18706CF62D0C71BE00402994 /* VollmedTextStylesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18706CF42D0C71BE00402994 /* VollmedTextStylesUI.swift */; };
+		18706CF72D0C71BE00402994 /* VollmedButtonStylesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18706CF32D0C71BE00402994 /* VollmedButtonStylesUI.swift */; };
+		18706CF82D0C71BE00402994 /* VollmedTextStylesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18706CF42D0C71BE00402994 /* VollmedTextStylesUI.swift */; };
+		18706CF92D0C71BE00402994 /* VollmedButtonStylesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18706CF32D0C71BE00402994 /* VollmedButtonStylesUI.swift */; };
+		18706CFE2D0C7E1600402994 /* VollmedTolltipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18706CFD2D0C7E1600402994 /* VollmedTolltipView.swift */; };
+		18706CFF2D0C7E1600402994 /* VollmedTolltipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18706CFD2D0C7E1600402994 /* VollmedTolltipView.swift */; };
+		18D89EBF2D0CD2400081AB84 /* VollmedSnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D89EBE2D0CD2400081AB84 /* VollmedSnackBar.swift */; };
+		18D89EC02D0CD2400081AB84 /* VollmedSnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D89EBE2D0CD2400081AB84 /* VollmedSnackBar.swift */; };
 		4E01B6B895AAACD6483C2FD58ADEDFD5 /* Pods-VollmedUI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E7DB0385672E99EE78DCAC925D27AF /* Pods-VollmedUI_Tests-dummy.m */; };
 		77350907F5064030C9FB7E97C6306B2E /* Pods-VollmedUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E72CAF5114555D401A1A856AAD252EF7 /* Pods-VollmedUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A42379B2DE1D7FF8D27989C609330391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -43,8 +47,10 @@
 		1557D293D6FE10449356B791794D13A0 /* Pods-VollmedUI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VollmedUI_Tests-Info.plist"; sourceTree = "<group>"; };
 		16826737D8D7A6AC9048CBC100136380 /* VollmedUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VollmedUI-Info.plist"; sourceTree = "<group>"; };
 		16BF634EE8225315418B018A2C90429B /* Pods-VollmedUI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VollmedUI_Example-frameworks.sh"; sourceTree = "<group>"; };
-		18706CEC2D0C6BB100402994 /* VollmedButtonStylesUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VollmedButtonStylesUI.swift; sourceTree = "<group>"; };
-		18706CED2D0C6BB100402994 /* VollmedTextStylesUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VollmedTextStylesUI.swift; sourceTree = "<group>"; };
+		18706CF32D0C71BE00402994 /* VollmedButtonStylesUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VollmedButtonStylesUI.swift; sourceTree = "<group>"; };
+		18706CF42D0C71BE00402994 /* VollmedTextStylesUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VollmedTextStylesUI.swift; sourceTree = "<group>"; };
+		18706CFD2D0C7E1600402994 /* VollmedTolltipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VollmedTolltipView.swift; sourceTree = "<group>"; };
+		18D89EBE2D0CD2400081AB84 /* VollmedSnackBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VollmedSnackBar.swift; sourceTree = "<group>"; };
 		2291A95EC5FEB2EC695AE53BBB8F5CF1 /* VollmedUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VollmedUI-dummy.m"; sourceTree = "<group>"; };
 		3E178A7E987A26FCE67AA09B7923AA4A /* Pods-VollmedUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VollmedUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F8D969CCAB8653773E6A2466FA8D58D /* Pods-VollmedUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VollmedUI_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -140,14 +146,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		18706CEE2D0C6BB100402994 /* Styles */ = {
+		18706CF52D0C71BE00402994 /* Styles */ = {
 			isa = PBXGroup;
 			children = (
-				18706CEC2D0C6BB100402994 /* VollmedButtonStylesUI.swift */,
-				18706CED2D0C6BB100402994 /* VollmedTextStylesUI.swift */,
+				18706CF32D0C71BE00402994 /* VollmedButtonStylesUI.swift */,
+				18706CF42D0C71BE00402994 /* VollmedTextStylesUI.swift */,
 			);
-			name = Styles;
-			path = VollmedUI/Classes/Styles;
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		18706CFB2D0C7DA200402994 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				18706CFD2D0C7E1600402994 /* VollmedTolltipView.swift */,
+				18D89EBE2D0CD2400081AB84 /* VollmedSnackBar.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		24B0C21705D8F7EA25F524C5C0BCDA69 /* Products */ = {
@@ -179,7 +193,8 @@
 		5E2011036E880495F5D52FAE5ECCBE81 /* VollmedUI */ = {
 			isa = PBXGroup;
 			children = (
-				18706CEE2D0C6BB100402994 /* Styles */,
+				18706CFB2D0C7DA200402994 /* Components */,
+				18706CF52D0C71BE00402994 /* Styles */,
 				04841D259AEE1E60B35737CE51F2D802 /* Pod */,
 				FA667C8EE404414FCB1F2438FB6E6F8E /* Support Files */,
 			);
@@ -398,8 +413,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				10317E6651091BD7DC52A149072D458E /* Pods-VollmedUI_Example-dummy.m in Sources */,
-				18706CEF2D0C6BB100402994 /* VollmedButtonStylesUI.swift in Sources */,
-				18706CF02D0C6BB100402994 /* VollmedTextStylesUI.swift in Sources */,
+				18D89EBF2D0CD2400081AB84 /* VollmedSnackBar.swift in Sources */,
+				18706CFE2D0C7E1600402994 /* VollmedTolltipView.swift in Sources */,
+				18706CF62D0C71BE00402994 /* VollmedTextStylesUI.swift in Sources */,
+				18706CF72D0C71BE00402994 /* VollmedButtonStylesUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,8 +425,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				05E01F8B64203C5FAF2286C5019F0D3D /* VollmedUI-dummy.m in Sources */,
-				18706CF12D0C6BB100402994 /* VollmedButtonStylesUI.swift in Sources */,
-				18706CF22D0C6BB100402994 /* VollmedTextStylesUI.swift in Sources */,
+				18D89EC02D0CD2400081AB84 /* VollmedSnackBar.swift in Sources */,
+				18706CFF2D0C7E1600402994 /* VollmedTolltipView.swift in Sources */,
+				18706CF82D0C71BE00402994 /* VollmedTextStylesUI.swift in Sources */,
+				18706CF92D0C71BE00402994 /* VollmedButtonStylesUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

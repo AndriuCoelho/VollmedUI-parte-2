@@ -1,0 +1,10 @@
+framework module VollmedUI {
+  umbrella header "VollmedUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module VollmedUI.__Swift {
+  exclude header "VollmedUI-Swift.h"
+}

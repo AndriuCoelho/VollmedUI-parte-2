@@ -1,0 +1,11 @@
+framework module VollmedUI {
+  umbrella header "VollmedUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module VollmedUI.Swift {
+  header "VollmedUI-Swift.h"
+  requires objc
+}

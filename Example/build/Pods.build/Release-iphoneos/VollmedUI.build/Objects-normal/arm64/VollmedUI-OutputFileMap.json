@@ -1,0 +1,25 @@
+{
+  "" : {
+    "const-values" : "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Example/build/Pods.build/Release-iphoneos/VollmedUI.build/Objects-normal/arm64/VollmedUI-master.swiftconstvalues",
+    "dependencies" : "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Example/build/Pods.build/Release-iphoneos/VollmedUI.build/Objects-normal/arm64/VollmedUI-master.d",
+    "diagnostics" : "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Example/build/Pods.build/Release-iphoneos/VollmedUI.build/Objects-normal/arm64/VollmedUI-master.dia",
+    "emit-module-dependencies" : "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Example/build/Pods.build/Release-iphoneos/VollmedUI.build/Objects-normal/arm64/VollmedUI-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Example/build/Pods.build/Release-iphoneos/VollmedUI.build/Objects-normal/arm64/VollmedUI-master-emit-module.dia",
+    "swift-dependencies" : "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Example/build/Pods.build/Release-iphoneos/VollmedUI.build/Objects-normal/arm64/VollmedUI-master.swiftdeps"
+  },
+  "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Components/VollmedTolltipView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/VollmedUI.build/Objects-normal/arm64/VollmedTolltipView.o",
+    "llvm-bc" : "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Example/build/Pods.build/Release-iphoneos/VollmedUI.build/Objects-normal/arm64/VollmedTolltipView.bc",
+    "object" : "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Example/build/Pods.build/Release-iphoneos/VollmedUI.build/Objects-normal/arm64/VollmedTolltipView.o"
+  },
+  "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedButtonStylesUI.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/VollmedUI.build/Objects-normal/arm64/VollmedButtonStylesUI.o",
+    "llvm-bc" : "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Example/build/Pods.build/Release-iphoneos/VollmedUI.build/Objects-normal/arm64/VollmedButtonStylesUI.bc",
+    "object" : "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Example/build/Pods.build/Release-iphoneos/VollmedUI.build/Objects-normal/arm64/VollmedButtonStylesUI.o"
+  },
+  "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Styles/VollmedTextStylesUI.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/VollmedUI.build/Objects-normal/arm64/VollmedTextStylesUI.o",
+    "llvm-bc" : "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Example/build/Pods.build/Release-iphoneos/VollmedUI.build/Objects-normal/arm64/VollmedTextStylesUI.bc",
+    "object" : "/Users/pcmacestudio/Desktop/VollmedUI-parte-2/Example/build/Pods.build/Release-iphoneos/VollmedUI.build/Objects-normal/arm64/VollmedTextStylesUI.o"
+  }
+}
