@@ -14,10 +14,10 @@
 		18706CF72D0C71BE00402994 /* VollmedButtonStylesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18706CF32D0C71BE00402994 /* VollmedButtonStylesUI.swift */; };
 		18706CF82D0C71BE00402994 /* VollmedTextStylesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18706CF42D0C71BE00402994 /* VollmedTextStylesUI.swift */; };
 		18706CF92D0C71BE00402994 /* VollmedButtonStylesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18706CF32D0C71BE00402994 /* VollmedButtonStylesUI.swift */; };
-		18706CFE2D0C7E1600402994 /* VollmedTolltipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18706CFD2D0C7E1600402994 /* VollmedTolltipView.swift */; };
-		18706CFF2D0C7E1600402994 /* VollmedTolltipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18706CFD2D0C7E1600402994 /* VollmedTolltipView.swift */; };
-		18D89EBF2D0CD2400081AB84 /* VollmedSnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D89EBE2D0CD2400081AB84 /* VollmedSnackBar.swift */; };
-		18D89EC02D0CD2400081AB84 /* VollmedSnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D89EBE2D0CD2400081AB84 /* VollmedSnackBar.swift */; };
+		18D89EC42D0CE3240081AB84 /* VollmedSnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D89EC12D0CE3240081AB84 /* VollmedSnackBar.swift */; };
+		18D89EC52D0CE3240081AB84 /* VollmedTooltipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D89EC22D0CE3240081AB84 /* VollmedTooltipView.swift */; };
+		18D89EC62D0CE3240081AB84 /* VollmedSnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D89EC12D0CE3240081AB84 /* VollmedSnackBar.swift */; };
+		18D89EC72D0CE3240081AB84 /* VollmedTooltipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D89EC22D0CE3240081AB84 /* VollmedTooltipView.swift */; };
 		4E01B6B895AAACD6483C2FD58ADEDFD5 /* Pods-VollmedUI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E7DB0385672E99EE78DCAC925D27AF /* Pods-VollmedUI_Tests-dummy.m */; };
 		77350907F5064030C9FB7E97C6306B2E /* Pods-VollmedUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E72CAF5114555D401A1A856AAD252EF7 /* Pods-VollmedUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A42379B2DE1D7FF8D27989C609330391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -49,8 +49,8 @@
 		16BF634EE8225315418B018A2C90429B /* Pods-VollmedUI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VollmedUI_Example-frameworks.sh"; sourceTree = "<group>"; };
 		18706CF32D0C71BE00402994 /* VollmedButtonStylesUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VollmedButtonStylesUI.swift; sourceTree = "<group>"; };
 		18706CF42D0C71BE00402994 /* VollmedTextStylesUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VollmedTextStylesUI.swift; sourceTree = "<group>"; };
-		18706CFD2D0C7E1600402994 /* VollmedTolltipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VollmedTolltipView.swift; sourceTree = "<group>"; };
-		18D89EBE2D0CD2400081AB84 /* VollmedSnackBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VollmedSnackBar.swift; sourceTree = "<group>"; };
+		18D89EC12D0CE3240081AB84 /* VollmedSnackBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VollmedSnackBar.swift; sourceTree = "<group>"; };
+		18D89EC22D0CE3240081AB84 /* VollmedTooltipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VollmedTooltipView.swift; sourceTree = "<group>"; };
 		2291A95EC5FEB2EC695AE53BBB8F5CF1 /* VollmedUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VollmedUI-dummy.m"; sourceTree = "<group>"; };
 		3E178A7E987A26FCE67AA09B7923AA4A /* Pods-VollmedUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VollmedUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F8D969CCAB8653773E6A2466FA8D58D /* Pods-VollmedUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VollmedUI_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -155,11 +155,11 @@
 			path = Styles;
 			sourceTree = "<group>";
 		};
-		18706CFB2D0C7DA200402994 /* Components */ = {
+		18D89EC32D0CE3240081AB84 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				18706CFD2D0C7E1600402994 /* VollmedTolltipView.swift */,
-				18D89EBE2D0CD2400081AB84 /* VollmedSnackBar.swift */,
+				18D89EC12D0CE3240081AB84 /* VollmedSnackBar.swift */,
+				18D89EC22D0CE3240081AB84 /* VollmedTooltipView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -193,7 +193,7 @@
 		5E2011036E880495F5D52FAE5ECCBE81 /* VollmedUI */ = {
 			isa = PBXGroup;
 			children = (
-				18706CFB2D0C7DA200402994 /* Components */,
+				18D89EC32D0CE3240081AB84 /* Components */,
 				18706CF52D0C71BE00402994 /* Styles */,
 				04841D259AEE1E60B35737CE51F2D802 /* Pod */,
 				FA667C8EE404414FCB1F2438FB6E6F8E /* Support Files */,
@@ -412,9 +412,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D89EC42D0CE3240081AB84 /* VollmedSnackBar.swift in Sources */,
+				18D89EC52D0CE3240081AB84 /* VollmedTooltipView.swift in Sources */,
 				10317E6651091BD7DC52A149072D458E /* Pods-VollmedUI_Example-dummy.m in Sources */,
-				18D89EBF2D0CD2400081AB84 /* VollmedSnackBar.swift in Sources */,
-				18706CFE2D0C7E1600402994 /* VollmedTolltipView.swift in Sources */,
 				18706CF62D0C71BE00402994 /* VollmedTextStylesUI.swift in Sources */,
 				18706CF72D0C71BE00402994 /* VollmedButtonStylesUI.swift in Sources */,
 			);
@@ -424,9 +424,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D89EC62D0CE3240081AB84 /* VollmedSnackBar.swift in Sources */,
+				18D89EC72D0CE3240081AB84 /* VollmedTooltipView.swift in Sources */,
 				05E01F8B64203C5FAF2286C5019F0D3D /* VollmedUI-dummy.m in Sources */,
-				18D89EC02D0CD2400081AB84 /* VollmedSnackBar.swift in Sources */,
-				18706CFF2D0C7E1600402994 /* VollmedTolltipView.swift in Sources */,
 				18706CF82D0C71BE00402994 /* VollmedTextStylesUI.swift in Sources */,
 				18706CF92D0C71BE00402994 /* VollmedButtonStylesUI.swift in Sources */,
 			);

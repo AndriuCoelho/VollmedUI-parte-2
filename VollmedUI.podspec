@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VollmedUI'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Design system module used in the Vollmed application'
 
 # This description is used to generate tags and improve search results.
@@ -19,17 +19,17 @@ Pod::Spec.new do |s|
 
   s.description      = 'Design system module used in the Vollmed application. This module contains all the visual components needed to use in the application'
 
-  s.homepage         = 'https://github.com/101216155/VollmedUI'
+  s.homepage         = 'https://github.com/AndriuCoelho/VollmedUI-parte-2.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '101216155' => 'mah.c5r@gmail.com' }
-  s.source           = { :git => 'https://github.com/101216155/VollmedUI.git', :tag => s.version.to_s }
+  s.author           = { 'AndriuCoelho' => 'andriu_coelho1993@hotmail.com' }
+  s.source           = { :git => 'https://github.com/AndriuCoelho/VollmedUI-parte-2.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '16.0'
   s.swift_version = '5.0'
 
-  s.source_files = 'VollmedUI/Classes/**/*'
+  s.source_files = 'Classes/**/*'
   
   # s.resource_bundles = {
   #   'VollmedUI' => ['VollmedUI/Assets/*.png']
