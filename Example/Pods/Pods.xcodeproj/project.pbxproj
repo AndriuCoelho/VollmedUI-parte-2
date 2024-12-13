@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04269C11550682A5FCE1788116CC7468 /* VollmedUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D96B5A98DF26177D1C692AF2FA15D5 /* VollmedUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05E01F8B64203C5FAF2286C5019F0D3D /* VollmedUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2291A95EC5FEB2EC695AE53BBB8F5CF1 /* VollmedUI-dummy.m */; };
+		10317E6651091BD7DC52A149072D458E /* Pods-VollmedUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9493A79441E11DF480DFC0B1FB07688B /* Pods-VollmedUI_Example-dummy.m */; };
+		18706CEF2D0C6BB100402994 /* VollmedButtonStylesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18706CEC2D0C6BB100402994 /* VollmedButtonStylesUI.swift */; };
+		18706CF02D0C6BB100402994 /* VollmedTextStylesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18706CED2D0C6BB100402994 /* VollmedTextStylesUI.swift */; };
+		18706CF12D0C6BB100402994 /* VollmedButtonStylesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18706CEC2D0C6BB100402994 /* VollmedButtonStylesUI.swift */; };
+		18706CF22D0C6BB100402994 /* VollmedTextStylesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18706CED2D0C6BB100402994 /* VollmedTextStylesUI.swift */; };
+		4E01B6B895AAACD6483C2FD58ADEDFD5 /* Pods-VollmedUI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E7DB0385672E99EE78DCAC925D27AF /* Pods-VollmedUI_Tests-dummy.m */; };
+		77350907F5064030C9FB7E97C6306B2E /* Pods-VollmedUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E72CAF5114555D401A1A856AAD252EF7 /* Pods-VollmedUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A42379B2DE1D7FF8D27989C609330391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DD6458D08BDA8B412288C34808367011 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E4C4694BE583EF00D3853B58791BC72E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FA8B1A4576ACD50020B672FBCFB4100C /* Pods-VollmedUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F8D969CCAB8653773E6A2466FA8D58D /* Pods-VollmedUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16E6907E707051EBEA96076CCF88AE71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B15393771DD9C9601E36483E00FC136;
+			remoteInfo = "Pods-VollmedUI_Example";
+		};
+		C5071DC4593394D3C0823D9F0B3F0785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDC6AE51F0D7752532A49ECA13B39477;
+			remoteInfo = VollmedUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1557D293D6FE10449356B791794D13A0 /* Pods-VollmedUI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VollmedUI_Tests-Info.plist"; sourceTree = "<group>"; };
+		16826737D8D7A6AC9048CBC100136380 /* VollmedUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VollmedUI-Info.plist"; sourceTree = "<group>"; };
+		16BF634EE8225315418B018A2C90429B /* Pods-VollmedUI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VollmedUI_Example-frameworks.sh"; sourceTree = "<group>"; };
+		18706CEC2D0C6BB100402994 /* VollmedButtonStylesUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VollmedButtonStylesUI.swift; sourceTree = "<group>"; };
+		18706CED2D0C6BB100402994 /* VollmedTextStylesUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VollmedTextStylesUI.swift; sourceTree = "<group>"; };
+		2291A95EC5FEB2EC695AE53BBB8F5CF1 /* VollmedUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VollmedUI-dummy.m"; sourceTree = "<group>"; };
+		3E178A7E987A26FCE67AA09B7923AA4A /* Pods-VollmedUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VollmedUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F8D969CCAB8653773E6A2466FA8D58D /* Pods-VollmedUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VollmedUI_Tests-umbrella.h"; sourceTree = "<group>"; };
+		43624A79E42CCFFEEEE137FD1106530C /* VollmedUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VollmedUI.debug.xcconfig; sourceTree = "<group>"; };
+		4730BD8CD8B865D47A6A07C6F2FA64B2 /* Pods_VollmedUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VollmedUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		475806DD22D73615EE5DA37575C0C15E /* Pods_VollmedUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VollmedUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6A10810A8DA4EB6AD276841A7E5467 /* Pods-VollmedUI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VollmedUI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		560715F52938AAD697E54BEBA38BEB8C /* Pods-VollmedUI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VollmedUI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		61D96B5A98DF26177D1C692AF2FA15D5 /* VollmedUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VollmedUI-umbrella.h"; sourceTree = "<group>"; };
+		670A8A3A3940ADCEBCF1101605E102F1 /* VollmedUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VollmedUI.modulemap; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		820BBE5734CD9A4A507B8DA392CDA876 /* Pods-VollmedUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VollmedUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		833AE92CC769557C5488182117479093 /* Pods-VollmedUI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VollmedUI_Example-Info.plist"; sourceTree = "<group>"; };
+		92B10E017781277E19D3E0F5C42EA7C8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9493A79441E11DF480DFC0B1FB07688B /* Pods-VollmedUI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VollmedUI_Example-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0E8C6B2E5129897425E892CB1085C87 /* Pods-VollmedUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VollmedUI_Example.modulemap"; sourceTree = "<group>"; };
+		AA88D4F8E18FDC4BE30E7E2EB689FF02 /* VollmedUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VollmedUI-prefix.pch"; sourceTree = "<group>"; };
+		B763537EA99FB2463A5242C0341D1856 /* Pods-VollmedUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VollmedUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C2FE2FC01DA7D57391823040D0D69CCD /* Pods-VollmedUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VollmedUI_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C49992FB2E76501B8FA854A0A51B8B44 /* VollmedUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VollmedUI.release.xcconfig; sourceTree = "<group>"; };
+		C864E03796F485E530091FB3F03DF570 /* VollmedUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = VollmedUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CDF7EACE9987D44407856B70DD20705E /* Pods-VollmedUI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VollmedUI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF50A28E26D19E53A0335819B89FC667 /* Pods-VollmedUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VollmedUI_Tests.modulemap"; sourceTree = "<group>"; };
+		E72CAF5114555D401A1A856AAD252EF7 /* Pods-VollmedUI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VollmedUI_Example-umbrella.h"; sourceTree = "<group>"; };
+		E756F03D0A0B05E2BEC6383429CBE6C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E8E7DB0385672E99EE78DCAC925D27AF /* Pods-VollmedUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VollmedUI_Tests-dummy.m"; sourceTree = "<group>"; };
+		EBDEA2DC32FBC8EFAE2E9624D417FA8E /* Pods-VollmedUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VollmedUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC64EF06D1794C6FCBE24B1AA28278AE /* VollmedUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VollmedUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04168DE569664F6A1E1960FDFF812188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6458D08BDA8B412288C34808367011 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962733ABC974619122F574868123CBB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42379B2DE1D7FF8D27989C609330391 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6E52BBD0A9E9EF982239EE4DAA60A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C4694BE583EF00D3853B58791BC72E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04841D259AEE1E60B35737CE51F2D802 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E756F03D0A0B05E2BEC6383429CBE6C0 /* LICENSE */,
+				92B10E017781277E19D3E0F5C42EA7C8 /* README.md */,
+				C864E03796F485E530091FB3F03DF570 /* VollmedUI.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0B73807BEFBDC700A9261802C992D00B /* Pods-VollmedUI_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A0E8C6B2E5129897425E892CB1085C87 /* Pods-VollmedUI_Example.modulemap */,
+				560715F52938AAD697E54BEBA38BEB8C /* Pods-VollmedUI_Example-acknowledgements.markdown */,
+				CDF7EACE9987D44407856B70DD20705E /* Pods-VollmedUI_Example-acknowledgements.plist */,
+				9493A79441E11DF480DFC0B1FB07688B /* Pods-VollmedUI_Example-dummy.m */,
+				16BF634EE8225315418B018A2C90429B /* Pods-VollmedUI_Example-frameworks.sh */,
+				833AE92CC769557C5488182117479093 /* Pods-VollmedUI_Example-Info.plist */,
+				E72CAF5114555D401A1A856AAD252EF7 /* Pods-VollmedUI_Example-umbrella.h */,
+				B763537EA99FB2463A5242C0341D1856 /* Pods-VollmedUI_Example.debug.xcconfig */,
+				C2FE2FC01DA7D57391823040D0D69CCD /* Pods-VollmedUI_Example.release.xcconfig */,
+			);
+			name = "Pods-VollmedUI_Example";
+			path = "Target Support Files/Pods-VollmedUI_Example";
+			sourceTree = "<group>";
+		};
+		0FC52EF573548F333659CEFCF0DD5BE8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B73807BEFBDC700A9261802C992D00B /* Pods-VollmedUI_Example */,
+				F713705EE16FAA91DB37A206B3056206 /* Pods-VollmedUI_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		18706CEE2D0C6BB100402994 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				18706CEC2D0C6BB100402994 /* VollmedButtonStylesUI.swift */,
+				18706CED2D0C6BB100402994 /* VollmedTextStylesUI.swift */,
+			);
+			name = Styles;
+			path = VollmedUI/Classes/Styles;
+			sourceTree = "<group>";
+		};
+		24B0C21705D8F7EA25F524C5C0BCDA69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4730BD8CD8B865D47A6A07C6F2FA64B2 /* Pods_VollmedUI_Example.framework */,
+				475806DD22D73615EE5DA37575C0C15E /* Pods_VollmedUI_Tests.framework */,
+				FC64EF06D1794C6FCBE24B1AA28278AE /* VollmedUI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D669932B244F84BA3D9D3BAEC626E20 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E2011036E880495F5D52FAE5ECCBE81 /* VollmedUI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5E2011036E880495F5D52FAE5ECCBE81 /* VollmedUI */ = {
+			isa = PBXGroup;
+			children = (
+				18706CEE2D0C6BB100402994 /* Styles */,
+				04841D259AEE1E60B35737CE51F2D802 /* Pod */,
+				FA667C8EE404414FCB1F2438FB6E6F8E /* Support Files */,
+			);
+			name = VollmedUI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5D669932B244F84BA3D9D3BAEC626E20 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				24B0C21705D8F7EA25F524C5C0BCDA69 /* Products */,
+				0FC52EF573548F333659CEFCF0DD5BE8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F713705EE16FAA91DB37A206B3056206 /* Pods-VollmedUI_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DF50A28E26D19E53A0335819B89FC667 /* Pods-VollmedUI_Tests.modulemap */,
+				EBDEA2DC32FBC8EFAE2E9624D417FA8E /* Pods-VollmedUI_Tests-acknowledgements.markdown */,
+				4C6A10810A8DA4EB6AD276841A7E5467 /* Pods-VollmedUI_Tests-acknowledgements.plist */,
+				E8E7DB0385672E99EE78DCAC925D27AF /* Pods-VollmedUI_Tests-dummy.m */,
+				1557D293D6FE10449356B791794D13A0 /* Pods-VollmedUI_Tests-Info.plist */,
+				3F8D969CCAB8653773E6A2466FA8D58D /* Pods-VollmedUI_Tests-umbrella.h */,
+				3E178A7E987A26FCE67AA09B7923AA4A /* Pods-VollmedUI_Tests.debug.xcconfig */,
+				820BBE5734CD9A4A507B8DA392CDA876 /* Pods-VollmedUI_Tests.release.xcconfig */,
+			);
+			name = "Pods-VollmedUI_Tests";
+			path = "Target Support Files/Pods-VollmedUI_Tests";
+			sourceTree = "<group>";
+		};
+		FA667C8EE404414FCB1F2438FB6E6F8E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				670A8A3A3940ADCEBCF1101605E102F1 /* VollmedUI.modulemap */,
+				2291A95EC5FEB2EC695AE53BBB8F5CF1 /* VollmedUI-dummy.m */,
+				16826737D8D7A6AC9048CBC100136380 /* VollmedUI-Info.plist */,
+				AA88D4F8E18FDC4BE30E7E2EB689FF02 /* VollmedUI-prefix.pch */,
+				61D96B5A98DF26177D1C692AF2FA15D5 /* VollmedUI-umbrella.h */,
+				43624A79E42CCFFEEEE137FD1106530C /* VollmedUI.debug.xcconfig */,
+				C49992FB2E76501B8FA854A0A51B8B44 /* VollmedUI.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VollmedUI";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5726139D2F8EF816AA400510983144C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04269C11550682A5FCE1788116CC7468 /* VollmedUI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6CE8408342EFA2A4DD951186B766F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77350907F5064030C9FB7E97C6306B2E /* Pods-VollmedUI_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6CA42DD022A92BD196E0A2C214F219A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8B1A4576ACD50020B672FBCFB4100C /* Pods-VollmedUI_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4B15393771DD9C9601E36483E00FC136 /* Pods-VollmedUI_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5693B17168324CA1A26DC48DDA82D5FB /* Build configuration list for PBXNativeTarget "Pods-VollmedUI_Example" */;
+			buildPhases = (
+				9A6CE8408342EFA2A4DD951186B766F7 /* Headers */,
+				92E556913C8C9E2DD787A6F98D17EF43 /* Sources */,
+				04168DE569664F6A1E1960FDFF812188 /* Frameworks */,
+				186F712F228E60B9EB6903651405CF38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				590D389154A14D41504053757A230198 /* PBXTargetDependency */,
+			);
+			name = "Pods-VollmedUI_Example";
+			productName = Pods_VollmedUI_Example;
+			productReference = 4730BD8CD8B865D47A6A07C6F2FA64B2 /* Pods_VollmedUI_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4DFDD0F2534F5D68FD2E7CF157474844 /* Pods-VollmedUI_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A727D62AC0B4570F7FB3B6D84F4849B /* Build configuration list for PBXNativeTarget "Pods-VollmedUI_Tests" */;
+			buildPhases = (
+				E6CA42DD022A92BD196E0A2C214F219A /* Headers */,
+				676E39D10BC2E6BBAE2F90CA9CA872CD /* Sources */,
+				962733ABC974619122F574868123CBB7 /* Frameworks */,
+				917282EBAF8C0A7B49797BC766BA19AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3570C860D81D6ADA000A885617C28C0 /* PBXTargetDependency */,
+			);
+			name = "Pods-VollmedUI_Tests";
+			productName = Pods_VollmedUI_Tests;
+			productReference = 475806DD22D73615EE5DA37575C0C15E /* Pods_VollmedUI_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BDC6AE51F0D7752532A49ECA13B39477 /* VollmedUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82FD8FB82F748DCB871840E3AE09A1A9 /* Build configuration list for PBXNativeTarget "VollmedUI" */;
+			buildPhases = (
+				5726139D2F8EF816AA400510983144C3 /* Headers */,
+				B8901FFD0BD5CF9B10BA885E45ED0D73 /* Sources */,
+				DD6E52BBD0A9E9EF982239EE4DAA60A4 /* Frameworks */,
+				6A1664AC182127A6B55BEB7708DE3077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VollmedUI;
+			productName = VollmedUI;
+			productReference = FC64EF06D1794C6FCBE24B1AA28278AE /* VollmedUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4B15393771DD9C9601E36483E00FC136 = {
+						LastSwiftMigration = 1600;
+					};
+					BDC6AE51F0D7752532A49ECA13B39477 = {
+						LastSwiftMigration = 1600;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 24B0C21705D8F7EA25F524C5C0BCDA69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B15393771DD9C9601E36483E00FC136 /* Pods-VollmedUI_Example */,
+				4DFDD0F2534F5D68FD2E7CF157474844 /* Pods-VollmedUI_Tests */,
+				BDC6AE51F0D7752532A49ECA13B39477 /* VollmedUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		186F712F228E60B9EB6903651405CF38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A1664AC182127A6B55BEB7708DE3077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		917282EBAF8C0A7B49797BC766BA19AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		676E39D10BC2E6BBAE2F90CA9CA872CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E01B6B895AAACD6483C2FD58ADEDFD5 /* Pods-VollmedUI_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E556913C8C9E2DD787A6F98D17EF43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10317E6651091BD7DC52A149072D458E /* Pods-VollmedUI_Example-dummy.m in Sources */,
+				18706CEF2D0C6BB100402994 /* VollmedButtonStylesUI.swift in Sources */,
+				18706CF02D0C6BB100402994 /* VollmedTextStylesUI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8901FFD0BD5CF9B10BA885E45ED0D73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05E01F8B64203C5FAF2286C5019F0D3D /* VollmedUI-dummy.m in Sources */,
+				18706CF12D0C6BB100402994 /* VollmedButtonStylesUI.swift in Sources */,
+				18706CF22D0C6BB100402994 /* VollmedTextStylesUI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		590D389154A14D41504053757A230198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VollmedUI;
+			target = BDC6AE51F0D7752532A49ECA13B39477 /* VollmedUI */;
+			targetProxy = C5071DC4593394D3C0823D9F0B3F0785 /* PBXContainerItemProxy */;
+		};
+		D3570C860D81D6ADA000A885617C28C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VollmedUI_Example";
+			target = 4B15393771DD9C9601E36483E00FC136 /* Pods-VollmedUI_Example */;
+			targetProxy = 16E6907E707051EBEA96076CCF88AE71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3779812EDB2AD26A3AF5E66A5F7D3C24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 820BBE5734CD9A4A507B8DA392CDA876 /* Pods-VollmedUI_Tests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VollmedUI_Tests/Pods-VollmedUI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VollmedUI_Tests/Pods-VollmedUI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B039E1774800679C11CAE328C0301AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B763537EA99FB2463A5242C0341D1856 /* Pods-VollmedUI_Example.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VollmedUI_Example/Pods-VollmedUI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VollmedUI_Example/Pods-VollmedUI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E81A1427AE2253085EA51EF6923C1CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E178A7E987A26FCE67AA09B7923AA4A /* Pods-VollmedUI_Tests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VollmedUI_Tests/Pods-VollmedUI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VollmedUI_Tests/Pods-VollmedUI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		784B7A555A846298B78B39550B4FC822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43624A79E42CCFFEEEE137FD1106530C /* VollmedUI.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VollmedUI/VollmedUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VollmedUI/VollmedUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VollmedUI/VollmedUI.modulemap";
+				PRODUCT_MODULE_NAME = VollmedUI;
+				PRODUCT_NAME = VollmedUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C8BC4882F41986D54DFE039A245F817E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2FE2FC01DA7D57391823040D0D69CCD /* Pods-VollmedUI_Example.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VollmedUI_Example/Pods-VollmedUI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VollmedUI_Example/Pods-VollmedUI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F5C6995AA061930DC352FB54F10350B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C49992FB2E76501B8FA854A0A51B8B44 /* VollmedUI.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VollmedUI/VollmedUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VollmedUI/VollmedUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VollmedUI/VollmedUI.modulemap";
+				PRODUCT_MODULE_NAME = VollmedUI;
+				PRODUCT_NAME = VollmedUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5693B17168324CA1A26DC48DDA82D5FB /* Build configuration list for PBXNativeTarget "Pods-VollmedUI_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B039E1774800679C11CAE328C0301AE /* Debug */,
+				C8BC4882F41986D54DFE039A245F817E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A727D62AC0B4570F7FB3B6D84F4849B /* Build configuration list for PBXNativeTarget "Pods-VollmedUI_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E81A1427AE2253085EA51EF6923C1CC /* Debug */,
+				3779812EDB2AD26A3AF5E66A5F7D3C24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82FD8FB82F748DCB871840E3AE09A1A9 /* Build configuration list for PBXNativeTarget "VollmedUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784B7A555A846298B78B39550B4FC822 /* Debug */,
+				F5C6995AA061930DC352FB54F10350B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
